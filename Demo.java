@@ -1,8 +1,8 @@
 public class Demo {
     public static void main(String []args){
-        int a=2005;
-        String b="sakeena";
-        System.out.println(a);
-        System.out.println(b);
+        int a=93;
+        int b=100;
+        int c=a+b;
+        System.out.println(c);
     }
 }
