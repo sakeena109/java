@@ -1,8 +1,10 @@
+import java.lang.System;
+import java.util.Scanner;
 public class Demo {
     public static void main(String []args){
-        int a=93;
-        int b=100;
-        int c=a+b;
-        System.out.println(c);
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println(a+b);
     }
 }
