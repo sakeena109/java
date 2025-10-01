@@ -2,12 +2,13 @@ import java.util.Scanner;
 public class qn1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String a=sc.nextLine();
+        int a=sc.nextInt();
         int b=sc.nextInt();
-        sc.nextLine();
-        String c=sc.nextLine();
-        System.out.println("my name is"+ a);
-        System.out.println("my age is"+ b);
-        System.out.println("my address is"+ c);
+        int c=sc.nextInt();
+        int d=a+b+c;
+        int e=a*a;
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(e/d);
     }
 }
