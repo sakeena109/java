@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class qn2 {
     public static void main(String[] args) {
-        int a=40;
-        int b=50;
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
         if(a<=b){
             System.out.println("b is greater");
         }
