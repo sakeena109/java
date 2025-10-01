@@ -1,11 +1,11 @@
 public class constatement {
     public static void main(String[] args) {
-        boolean rain=true;
-        if(rain){
-            System.out.println("take an umbrella");
+        int a=10;
+        if(a>5){
+            System.out.println("true");
         }
         else{
-            System.out.println("no need to take umbrella");
+            System.out.println("false");
         }
     }
     
