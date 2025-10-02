@@ -1,12 +1,9 @@
 public class constatement {
     public static void main(String[] args) {
-        int a=10;
-        if(a>5){
-            System.out.println("true");
-        }
-        else{
-            System.out.println("false");
+        for(int i=0;i<=10;i++){
+            i=i+1;
+            System.out.println(i);
         }
     }
-    
 }
+
