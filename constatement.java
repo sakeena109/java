@@ -3,13 +3,8 @@ public class constatement {
         for(int i=1;i<=100;i++){
             if(i%3==0&&i%5==0)
             {
-                System.out.println("divisible by 3 and 5");
+                System.out.println(i);
             }
-            else{
-                System.out.println("not divisible by 3 and 5");
-            }
-        }
-        
     }
+  }
 }
-
