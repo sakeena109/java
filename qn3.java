@@ -1,17 +1,17 @@
 public class qn3 {
     public static void main(String[] args){
         int score=90;
-        if(score>=90){
-            System.out.println("you can get macbook");
+        if(score<50){
+            System.out.println("you need to improve");
         }
-        else if(score>=60){
-            System.out.println("you can get iphone ");
+        else if(score<=50&&score>=70){
+            System.out.println("good job");
         }
-        else if(score>=35){
-            System.out.println("you can get video game");
+        else if(score>70){
+            System.out.println("excellent performance");
         }
         else{
-            System.err.println("you can get nothing");
+            System.out.println("marvelous");
         }
     }
 }
