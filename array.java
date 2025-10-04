@@ -1,10 +1,11 @@
 public class array {
     public static void main(String[] args) {
-        int[] stud_marks={55,65,45,93,100};
-        int total=0;
-        for (int i=0;i<stud_marks.length;i++) {
-            total =total+ stud_marks[i];
+        double[] temp={22.4,12.6,23.6,26.9};
+        double max=temp[0];
+        for (int i=1;i<temp.length;i++) {
+            if(temp[i]>max)
+            max=temp[i];
         }
-        System.out.println(total);
+        System.out.println(max);
     }
 }
