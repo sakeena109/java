@@ -1,14 +1,13 @@
-public class array {
+import java.util.Scanner;
+class Array {
     public static void main(String[] args) {
-        String name="sakeena";
-        String namee="suhaina";
-        String nameee="maidha";
-        String[] list=new String[3];
-        list[1]="suhaina";
-        list[0]="maidha";
-        list[2]="sakeena";
-        System.out.println(list[0]);
-        System.out.println(list[1]);
-        System.out.println(list[2]);
+       Scanner sc=new Scanner(System.in);
+       int[] arr=new int[5];
+       for(int i=0;i<5;i++){
+           arr[i]=sc.nextInt();
+       }
+       for(int i=0;i<5;i++){
+           System.out.print(arr[i]+" ");
+       } 
     }
 }
